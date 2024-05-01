@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 
+		Creating a form
+	</title>
+</head>
+
+<body>
+<form>
+
+First Name:<br/> 
+<input type="text" name="firstname"/> <br/>
+
+Last name:<br/>
+<input type="text" name="lastname"/>
+<br/><br/><br/>
+
+User Name:<br/> 
+<input type="text" name="uname"/> <br/>
+
+Password:<br/>
+<input type="password" name="pwd"/>
+<br/><br/><br/>
+
+<input type="checkbox" name="vehicle1" value="Bike"/> I have a bike <br/>
+<input type="checkbox" name="vehicle2" value="Car"/> I have a car<br/>
+<br/><br/><br/>
+
+Gender:<br/>
+<input type="radio" name="gender" value="male"/> Male 
+<input type="radio" name="gender" value="female"/> Female <br/>
+<br/><br/><br/>
+
+<input type="button" value="Click Me!"/>
+<br/><br/><br/>
+
+First Name:<br/> 
+<input type="text" name="firstname" value="Yasir"/> <br/>
+
+Last name:<br/>
+<input type="text" name="lastname"/><br/>
+<input type="submit" value="Save"/>
+<input type="reset" value="Clear"/>
+<br/><br/><br/>
+
+First Name:<br/> 
+<input type="text" name="firstname" placeholder="Yasir"/> <br/>
+
+Last name:<br/>
+<input type="text" name="lastname"/><br/>
+
+<br/><br/><br/>
+
+First Name:<br/> 
+<input type="text" name="firstname" value="Yasir" readonly /> <br/>
+
+Last name:<br/>
+<input type="text" name="lastname"/><br/>
+
+<br/><br/><br/>
+
+First Name:<br/> 
+<input type="text" name="firstname" value="Yasir" size="40" maxlength="10"/> <br/> <!--size->No of characters  maxlength->Allows upto-->
+
+Last name:<br/>
+<input type="text" name="lastname"/><br/>
+
+<br/><br/><br/>
+
+<!--Required Attributes-->
+First Name:<br/> 
+<input type="text" name="firstname" required /> <br/>
+
+Last name:<br/>
+<input type="text" name="lastname"/><br/>
+<input type="submit" value="Save"/>
+<input type="reset" value="Clear"/>
+<br/><br/><br/>
+
+<select name="Cars">
+
+<option value="audi">Audi</option>
+<option value="volvo">Volvo</option>
+<option value="fiat">Fiat</option>
+</select>
+<br/><br/><br/>
+
+<textarea name="message" rows="10" cols="30">
+Enter Your Instructions Here...
+</textarea>
+
+</form>
+
+</body>
+
+</html>
